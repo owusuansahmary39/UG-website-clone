@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        border-width: 0px;
+        border-style: solid;
+    }
+
+    .line-under-date {
+        width: 1000px;
+        height: 1px;
+        background-color: #ccc;
+        margin-top: 5px;
+    }
+
+    .featured-links {
+        font-family: sans-serif;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .featured-links ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .featured-links li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgb(237, 237, 244);
+        margin-bottom: 1px;
+    }
+
+
+    .announcements-container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .announcement-item {
+        margin-bottom: 20px;
+    }
+
+    .announcement-item h2 {
+        font-size: 16px;
+        margin: 0 0 5px 0;
+    }
+
+    .announcement-item p {
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+    }
+
+    .underline {
+        width: 50px;
+        text-decoration: underline;
+        height: 1px;
+        background-color: #ccc;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <!-- web -->
+    <div style="display: flex;flex-direction: column;justify-content: flex-start ;width: 1000px; padding-left: 30px; ;">
+        <!-- header -->
+        <div style="background-color: blue ; padding: 10px; width: 1000px;"> </div>
+        <!-- name and logo -->
+        <div
+            style="background-color: white;display: flex; flex-direction: row; justify-content: space-between; width: 1000px;">
+            <img style="width: 120px; margin-left: 15px;" src="./images/uglogo.jpg"> <img
+                style="width: 40px ; margin-right: 25px;" src="./images/menu.jpg">
+        </div>
+        <!--  img-->
+        <div>
+            <img style="width: 1000px; height: 300px;" src="./images/ugbanner.png">
+        </div>
+        <!-- yeah's admission -->
+        <div style="background-color: lightgray; color: white;">
+            <h2> 2025/2026 Undergraduate <br>Admission Opened</h2>
+            <h3> 2025/2026 Undergraduate Admission Opened</h3>
+            <h4> click here for more details <img style="height: 20px; margin-left: 10px;" src="./images/arrow.jpg"
+                    alt=""></h4>
+        </div>
+        <!-- news -->
+        <div>
+            <!-- news from ug -->
+            <h1>News from UG</h1>
+            <!-- image -->
+            <img style="width: 1000PX; height: 500px;" src="./images/261A2589.jpg">
+            <!-- date -->
+            <h2 style="font-weight: lighter; color: lightgray; font-size: 15px;">September 7,2025</h2>
+            <!-- headline -->
+            <p style="font-size: 30px; font-weight: bolder;"> DS-I African Meeting Pushes <br> for Stronger Partnership
+                to <br> Advance Health Outcome</p>
+        </div>
+        <!-- explore   go -->
+        <div style="display: flex; flex-direction: row;justify-content: space-between;">
+            <div style="font-size: 25px; font-weight: bold;">Explore more news</div>
+            <button style="background-color: blue; color: white;"> GO ></button>
+        </div>
+        <!-- news -->
+        <div style="line-height: 0.8;">
+            <h2 style="font-weight: bold;"> UG of Law Host 2nd Internarional conference on Ocean Goverance</h2>
+            <p style="font-size: 20px; font-weight: lighter;"> The university of ghana school of law, in partnership
+                with the department of marineand fishes sciences and the norwegian centre for.......</p>
+            <h3 style="color: lightgray; font-weight: lighter; font-size: 15px; ">September 5,2025</h3>
+            <div class="line-under-date"></div>
+        </div>
+        <!-- news3 -->
+        <div style="line-height: 0.8;">
+            <h2 style=" font-weight: bold;">LECIAD and embassy of the Czech Republic Convene Event to Spotlight
+                Africa-Europe Security interconnection</h2>
+            <p style=" font-size: 20px; font-weight:lighter ;"> The legon centre for International Affairs and Diplomacy
+                ( LECIAD) ,in partnership with the Embassy of the Czech Republic in Ghana and with...........</p>
+            <h3 style="color: lightgray; font-weight: lighter; font-size: 15px;"> september 5,2025</h3>
+            <div class="line-under-date"> </div>
+        </div>
+        <!-- news -->
+        <div>
+            <h2 style="font-weight: bold;"> UG Celebrates 10years of Sakai Learning management system with blended
+                conference</h2>
+            <p style=" font: size 20px;font-weight:lighter;"> The University of Ghana has commemorated ten years of the
+                Sakai Learning Management System (LMS ) with a two day blended conference...........></p>
+            <h3 style="color: #ccc;font-weight:lighter ; font-size: 15px;"> september 5,2025</h3>
+            <div class="line-under-date"></div>
+        </div>
+        <!-- strategi plan -->
+        <div
+            style="background: linear-gradient(to bottom,#d3d3d3,#333333); color: white;height: 200px; display: flex; flex-direction: column; justify-content: center;align-items: center;">
+            <h2> UG'S News Strategic Plan (2024-2025) and Key Document</h2>
+            <h3> UG's New Strategic Plan (2024-2025) and key Document</h3>
+            <button style="background-color: rgb(236, 182, 117); color: white; height: 30px;"> Find out more</button>
+        </div>
+        <!-- upcoming events -->
+        <div
+            style="background-color: beige; padding: 20px; display: flex; flex-direction: column;justify-content: flex-start;">
+            <!-- events heading-->
+            <div style=" margin-left: 15px;">
+                <h1 style="font-size: 20px;"> Upcoming Events </h1>
+                <h2 style="font-weight: lighter; font-size: 14px; color: #666;"> View all events </h2>
+            </div>
+            <!-- line -->
+            <div style="width: 800px; align-items: center;" class="line-under-date"></div>
+            <!-- date and activities -->
+            <div
+                style="display: flex; flex-direction: column;justify-content: flex-start; margin-left: 15px; border-right: 1px;">
+                <!-- first -->
+                <div style="display: flex;flex-direction: row;justify-content: space-between; ">
+                    <!-- date -->
+                    <div style="line-height: 0.8px;">
+                        <h2 style="color: #666; font-weight: lighter; font-size: 15px;"> Oct.</h2>
+                        <h1 style="color: rgb(24, 24, 163);"> 08</h1>
+                    </div>
+                    <!-- activity and venue -->
+                    <div style="margin-right: 60px; line-height: 0.8px;">
+                        <h2> Wear UG Day - October 8,2025</h2>
+                        <h3> Venue : University of Ghana</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- upcoming events -->
+        <div
+            style="background-color: beige; padding: 20px; display: flex; flex-direction: column;justify-content: flex-start;">
+            <!-- events heading-->
+            <div style=" margin-left: 15px">
+                <h1 style="font-size: 20px;"> Upcoming Events </h1>
+                <h2 style="font-weight: lighter; font-size: 14px; color: #666;"> View all events </h2>
+            </div>
+            <!-- line -->
+            <div style="width: 800px; align-items: center;" c lass="line-under-date"></div>
+            <!-- date and activities -->
+            <div
+                style="display: flex; flex-direction: column;justify-content: flex-start; margin-left: 15px; border-right: 1px;">
+                <!-- first -->
+                <div style="display: flex;flex-direction: row;justify-content: space-between; ">
+                    <!-- date -->
+                    <div style="line-height: 0.8px;">
+                        <h2 style="color: #666; font-weight: lighter; font-size: 15px;"> Oct.</h2>
+                        <h1 style="color: rgb(24, 24, 163);"> 22</h1>
+                    </div>
+                    <!-- activity and venue -->
+                    <div style="margin-right: 60px; line-height: 0.8px;">
+                        <h2> 2025 Ug Open day - October 22,2025</h2>
+                        <h3> Venue : University of Ghana</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                         
+        <div class=" featured-links">
+            <h1> Featured Links</h1>
+            <ul>
+                <li>
+                    <div> 2nd Sememster Examination Timetable</div>
+                </li>
+                <li>
+                    <div> Amnesty Registration Information</di>
+                </li>
+                <li>
+                    <div> University Policies and Strategic Document</div>
+                </li>
+                <li>
+                    <div> Course Lecturer Evaluation</div>
+                </li>
+                <li>
+                    <div> Join the UG Alumni Network</div>
+                </li>
+                <li>
+                    <div> Donate to the VCs Student Digitisation </div>
+                </li>
+                <li>
+                    <div style="text-decoration: underline;"> Vacancy Annoucement</div>
+                </li>
+                <li>
+                    <div> Schedule of Fees</div>
+                </li>
+            </ul>
+
+        </div>
+        <!-- annoucement -->
+        <div class="announcements-container">
+            <h1>Announcements</h1>
+            <div class="announcement-item">
+                <h2>Online I.T. Professional Certificate Short Courses: Department of Computer Science</h2>
+                <p>August 11, 2025</p>
+                <div class="underline"></div>
+            </div>
+            <div class="announcement-item">
+                <h2>Second Batch Mature Student Admissions into Distance Education Programme – 2024/2025 Academic Year
+                </h2>
+                <p>July 17, 2025</p>
+                <div class="underline"></div>
+            </div>
+            <div class="announcement-item">
+                <h2>ECOWAS One Health Leadership Course Epidemic Pandemic Preparedness and Response</h2>
+                <p>July 9, 2025</p>
+                <div class="underline"></div>
+            </div>
+            <div class="announcement-item">
+                <h2>Notice: Official University Events to Proceed as Scheduled</h2>
+                <p>June 26, 2025</p>
+                <div class="underline"></div>
+            </div>
+            <div style=" width: 200px; border: 1px solid gold; padding: 10px;"> Explore more annoucements </div>
+
+            <!-- ... -->
+            <div
+                style="display: flex;flex-direction: row; justify-content: space-around; background-color: beige; margin : 10px; padding: 10px; height: 40px; flex-wrap: wrap; ">
+                <div> MISweb</div>
+                <div> Student Email</div>
+                <div> Careers & Counselling</div>
+                <div style="align-items: center; width: 100%; margin-left: 380px; "> Radio Universe</div>
+            </div>
+            <!-- info -->
+            <div style=" background-color: blue; display: flex; flex-direction: column; justify-content: flex-start; color: white;padding: 20px;" >
+                <!-- logo -->
+              <div > <img style="height: 100px; width: 500px;" src="./images/uglogo.jpg" alt=""></div>
+                <!-- call line -->
+                <div>
+                    <div> +233 -(0)302-213820</div>
+                    <div> +233 -(0)302-213850</div>
+                    <div> pad@ug.edu.gh</div>
+                    <div> P.O BOX LG 25 Legon-Accra</div>
+                </div>
+                <!-- colleges -->
+                <div>
+                    <div style="color: gold; margin-top: 20px; margin-bottom: 10px; font-size: 20px;"> COLLEGES</div>
+                    <div> Basic and Applied Sciences</div>
+                    <div> Education</div>
+                    <div> Health Sciences</div>
+                    <div> Humanities</div>
+                </div>
+
+                <!-- ouicklinks -->
+                <div>
+                    <div style=" color: gold; margin-top: 40px; margin-bottom: 10px; font-size: 20px;"> QUICK LINKS</div>
+                    <div>Academic Suppory and Service</div>
+                    <div> Academic Record Verification</div>
+                    <div> The Pan-African Docoral Academy (PADA)</div>
+                    <div> Employment Opportunities</div>
+                    <div>Sakai</div>
+                    <div>Libray</div>
+                </div>
+
+                <!-- admisions -->
+                <div>
+                    <div style="color: gold; margin-top: 40px; margin-bottom: 10px; font-size: 20px;"> ADMISSION</div>
+                    <div> Undergraduate</div>
+                    <div> Graduate</div>
+                    <div> International</div>
+                    <div> Distance</div>
+                </div>
+                <!-- alumni -->
+                 <div style="margin-bottom: 50px;">
+                <div style="color: gold; margin-top: 40px; margin-bottom: 10px; font-size: 20px"> ALUMNI</div>
+                <div> Institute Advancement Directorate</div>
+                <div> Alumni Association (Ghana)</div>
+                <div> Alumni Association (North Americ)</div>
+            </div>
+            <!-- logos -->
+             <div style="color:white ; margin-bottom: 10px; background-color: blue;  padding: 5px;">
+                <div style="border: 2px solid gold;  padding: 5px; width: 100px;" > GIVE TO UG</div>
+                <div style="display: flex; flex-direction: row; justify-content: flex-start;  height: 30px; margin-top: 10px; margin-bottom: 50px;"> 
+                    <img src="./images/linkedinlogo.jpg" >
+                    <img src="./images/facebooklogo.jpg">
+                    <img src="./images/x logo.jpg" >
+                    <img src="./images/youtube logo.jpg">
+                    <img src="./images/instagramlogo.jpg" >
+                </div>
+                <div style="font-size: 12px; border-top: 1px solid rgb(41, 37, 37);">
+                <div style="margin-bottom: 40px; margin-top: 10px;"> copyright@2025,Uiversity of Ghana</div>
+                <div style="margin-left: 700px; margin-bottom: 50px;"> All Right Reserved -. Contact Support</div>  
+                </div>
+             </div>
+
+
+
+        </div>
+
+
+
+
+</body>
+
+</html>
