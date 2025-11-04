@@ -1,0 +1,4 @@
+let name="John";
+const country= " Ghana";
+var age =18;
+console.log( name,country,age )
